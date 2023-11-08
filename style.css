@@ -1,36 +1,50 @@
-header{
-    text-align: center;
-    
-    
+body{
+    background-image: url(./img/kladdkaka\ bakgrund.jpg);
+    background-size: cover;
 }
 
-body{
-    background-color:blanchedalmond;
-}
+
+
+
 
 .grid-box{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 5fr;
-    gap:10px;
-}
-
-.fakta{
-    border: 2px solid black;
-    border-radius: 10px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap:0px
     
 }
 
-.bild{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
 
+header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    text-align: center;
+    font-family: 'Italianno', 'cursive';
+    font-size: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.fakta{
+    
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: blanchedalmond;
+    padding: 20px;
+
+}
+
+.bild{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 20px;
+    background-color: blanchedalmond;
     
 
 }
@@ -39,4 +53,51 @@ body{
     width: 100%;
     border:2px solid black;
     border-radius: 10px;
+    
+
+}
+
+.bildtvå{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: blanchedalmond;
+    padding: 20px;
+
+}
+
+.bildtvå img{
+    width: 99%;
+    border:2px solid black;
+    border-radius: 10px;
+    
+}
+nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: blanchedalmond;
+    padding: 20px;
+
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+
+}
+
+nav a:hover{
+    color: white;
+    
 }
