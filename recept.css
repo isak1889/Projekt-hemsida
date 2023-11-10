@@ -83,6 +83,7 @@ main{
     grid-column: 3/4;
     grid-row: 1/4;
     background-color:blanchedalmond;
+    
 }
 
 main ul{
@@ -95,3 +96,42 @@ main li{
     font-size: 20px;
     padding-bottom: 20px ;
 }
+
+main img{
+    width: 50%;
+    grid-column: 4;
+
+    
+    
+}
+
+.bild{
+    grid-column: 4;
+    grid-row: 1/2;
+}
+
+.bild img{
+    width: 100%;
+
+}
+
+.bilder{
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.bilder img{
+    width: 30%;
+    
+}
+
+.bilder ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+
+
